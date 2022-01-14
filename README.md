@@ -1,4 +1,8 @@
-# AR-Image-Finder
+# AR Image Finder
+
+Image finder for MDA
+
+Created by Konstantin Ryabtsev on 14.01.2022.
 
 # Screenshots
 
