@@ -13,6 +13,8 @@
 		0A120A2D2790E8D300DEC87D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A120A2B2790E8D300DEC87D /* Main.storyboard */; };
 		0A120A2F2790E8D800DEC87D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A120A2E2790E8D800DEC87D /* Assets.xcassets */; };
 		0A120A322790E8D800DEC87D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A120A302790E8D800DEC87D /* LaunchScreen.storyboard */; };
+		0A120A3A279233EB00DEC87D /* Screenshot02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A120A38279233EA00DEC87D /* Screenshot02.jpg */; };
+		0A120A3B279233EB00DEC87D /* Screenshot01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A120A39279233EB00DEC87D /* Screenshot01.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		0A120A2C2790E8D300DEC87D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A120A2E2790E8D800DEC87D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A120A312790E8D800DEC87D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A120A38279233EA00DEC87D /* Screenshot02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Screenshot02.jpg; sourceTree = "<group>"; };
+		0A120A39279233EB00DEC87D /* Screenshot01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Screenshot01.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 		0A120A242790E8D300DEC87D /* AR Image Finder */ = {
 			isa = PBXGroup;
 			children = (
+				0A120A3C279233EF00DEC87D /* Screenshots */,
 				0A120A252790E8D300DEC87D /* AppDelegate.swift */,
 				0A120A272790E8D300DEC87D /* art.scnassets */,
 				0A120A292790E8D300DEC87D /* ViewController.swift */,
@@ -63,6 +68,15 @@
 				0A120A302790E8D800DEC87D /* LaunchScreen.storyboard */,
 			);
 			path = "AR Image Finder";
+			sourceTree = "<group>";
+		};
+		0A120A3C279233EF00DEC87D /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				0A120A39279233EB00DEC87D /* Screenshot01.jpg */,
+				0A120A38279233EA00DEC87D /* Screenshot02.jpg */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,8 @@
 				0A120A282790E8D300DEC87D /* art.scnassets in Resources */,
 				0A120A322790E8D800DEC87D /* LaunchScreen.storyboard in Resources */,
 				0A120A2F2790E8D800DEC87D /* Assets.xcassets in Resources */,
+				0A120A3A279233EB00DEC87D /* Screenshot02.jpg in Resources */,
+				0A120A3B279233EB00DEC87D /* Screenshot01.jpg in Resources */,
 				0A120A2D2790E8D300DEC87D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
